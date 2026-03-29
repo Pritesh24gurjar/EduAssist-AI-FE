@@ -862,8 +862,8 @@ State Update + Toast Notification
 
 ## 📝 Notes
 
-- The project uses a **template-based admin dashboard** (TailAdmin) customized for educational purposes
-- Many e-commerce and chart components are **commented out** as they're not needed
+- The project is built with **React 19 + TypeScript + Vite** for modern, efficient development
+- Many e-commerce and chart components are **commented out** as they're not needed for the educational focus
 - The **3-column layout** in ModuleDetail is a key UX feature for multitasking
 - **Persistent storage** is used for selected resources in chat (localStorage)
 - The API base URL is configurable via environment variables (`.env`, `.env.production`)

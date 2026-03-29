@@ -451,9 +451,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 ## 🙏 Acknowledgments
 
-- **TailAdmin** - Base admin template
-- **React Community** - Amazing framework
-- **All Contributors** - Your support makes this possible
+- **React Community** - Amazing framework and ecosystem
+- **TailwindCSS** - Beautiful and utility-first CSS framework
+- **All Contributors** - Your support makes this project better
 
 ---
 
