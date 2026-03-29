@@ -183,6 +183,26 @@ export default function SignInForm() {
               </div>
             </form>
 
+            {/* Demo Credentials Box */}
+            <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
+              <p className="text-xs font-semibold text-blue-800 dark:text-blue-300 mb-2">
+                🔑 Demo Credentials
+              </p>
+              <div className="space-y-2 text-xs text-blue-700 dark:text-blue-400">
+                <div className="flex justify-between items-center">
+                  <span className="font-medium">Email:</span>
+                  <code className="bg-white dark:bg-gray-800 px-2 py-1 rounded">FUser_eduassist@gmail.com</code>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="font-medium">Password:</span>
+                  <code className="bg-white dark:bg-gray-800 px-2 py-1 rounded">qwerty</code>
+                </div>
+              </div>
+              <p className="mt-2 text-xs text-blue-600 dark:text-blue-500 italic">
+                💡 Use these credentials to explore the platform
+              </p>
+            </div>
+
             <div className="mt-5">
               <p className="text-sm font-normal text-center text-gray-700 dark:text-gray-400 sm:text-start">
                 Don&apos;t have an account?{" "}
