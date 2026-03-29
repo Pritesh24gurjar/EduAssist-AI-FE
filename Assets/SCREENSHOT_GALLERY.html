@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduAssist-AI - Screenshot Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+        
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+        
+        .demo-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 16px 32px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            animation: pulse 2s infinite;
+        }
+        
+        .demo-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .screenshot-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .screenshot-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .screenshot-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .screenshot-card .caption {
+            padding: 20px;
+            background: #f8fafc;
+        }
+        
+        .screenshot-card .caption h3 {
+            color: #1e293b;
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+        
+        .screenshot-card .caption p {
+            color: #64748b;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .features {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-top: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .features h2 {
+            text-align: center;
+            color: #1e293b;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .feature-item {
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature-item h4 {
+            color: #1e293b;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .feature-item p {
+            color: #64748b;
+            font-size: 14px;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 EduAssist-AI</h1>
+            <p>Your Intelligent Educational Companion</p>
+            <a href="https://pritesh24gurjar.github.io/EduAssist-AI-FE/" class="demo-button" target="_blank">
+                🚀 Launch Live Demo
+            </a>
+        </div>
+        
+        <div class="gallery">
+            <div class="screenshot-card">
+                <img src="./Course%20Overview-dash.png" alt="Course Overview Dashboard">
+                <div class="caption">
+                    <h3>📊 Course Overview Dashboard</h3>
+                    <p>Manage all your courses with an intuitive card-based interface. Create, edit, and organize courses with ease. Features real-time search and filtering capabilities.</p>
+                </div>
+            </div>
+            
+            <div class="screenshot-card">
+                <img src="./Module%20Detail%20-%203-Column%20View.png" alt="Module Detail 3-Column View">
+                <div class="caption">
+                    <h3>📁 Module Detail - 3-Column View</h3>
+                    <p>Innovative three-column layout featuring resource management on the left, AI-powered chat in the center, and quick access to features on the right. Collapsible sidebars for focused work.</p>
+                </div>
+            </div>
+            
+            <div class="screenshot-card">
+                <img src="./AI%20Summary%20Generation.png" alt="AI Summary Generation">
+                <div class="caption">
+                    <h3>🤖 AI Summary Generation</h3>
+                    <p>Generate intelligent summaries with customizable length (Brief, Detailed, or Comprehensive), focus areas, and custom prompts. Powered by advanced AI for accurate content extraction.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="features">
+            <h2>✨ Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>📚 Course Management</h4>
+                    <p>Create and organize courses with structured modules and intuitive navigation.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📤 Smart Upload</h4>
+                    <p>Upload PDF, DOCX, TXT, and Video files with automatic processing.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🤖 AI Summarization</h4>
+                    <p>Generate intelligent summaries with customizable options.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>💬 RAG Chat</h4>
+                    <p>Context-aware AI chat trained on your course content.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📝 Summary Management</h4>
+                    <p>View, edit, publish, and download AI-generated summaries.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>🎨 Dark Mode</h4>
+                    <p>Seamless theme switching for comfortable viewing.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Made with ❤️ by the EduAssist-AI Team</p>
+            <p><a href="https://pritesh24gurjar.github.io/EduAssist-AI-FE/" target="_blank">Launch Live Demo →</a></p>
+        </div>
+    </div>
+</body>
+</html>

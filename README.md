@@ -2,19 +2,18 @@
 
 > **Your Intelligent Educational Companion for Smarter Learning**
 
-[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-brightgreen?style=for-the-badge)](https://pritesh24gurjar.github.io/EduAssist-AI-FE/)
+<div align="center">
+
+[![🚀 Launch Live Demo](https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-Click_Here-brightgreen?style=for-the-badge&logo=rocket&logoColor=white&color=2563eb)](https://pritesh24gurjar.github.io/EduAssist-AI-FE/)
+
+✨ **Experience the future of educational technology - One click away!** ✨
+
+</div>
+
 [![React](https://img.shields.io/badge/React-19.0.0-61dafb?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.1.0-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0.8-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-
----
-
-## 🌟 Try It Now
-
-### 👉 [**🚀 Launch Live Demo**](https://pritesh24gurjar.github.io/EduAssist-AI-FE/)
-
-Experience the future of educational technology right in your browser!
 
 ---
 
@@ -23,7 +22,7 @@ Experience the future of educational technology right in your browser!
 - [Overview](#-overview)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
-- [Screenshots](#-screenshots)
+- [🖼️ Live Screenshots](#-live-screenshots)
 - [Getting Started](#-getting-started)
 - [Usage Guide](#-usage-guide)
 - [Project Structure](#-project-structure)
@@ -115,49 +114,43 @@ Whether you're a faculty member organizing course materials or a student seeking
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Live Screenshots
 
-> *Visual tour of EduAssist-AI's intuitive interface*
+> *Real screenshots from the EduAssist-AI application*
 
-### Dashboard - Course Overview
-```
-┌─────────────────────────────────────────────────────────┐
-│  🎓 My Courses                              [🔍 Search] │
-├─────────────────────────────────────────────────────────┤
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐│
-│  │   📘 C1  │  │   📘 C2  │  │   📘 C3  │  │   📘 C4  ││
-│  │ Course 1 │  │ Course 2 │  │ Course 3 │  │ Course 4 ││
-│  │ [View]   │  │ [View]   │  │ [View]   │  │ [View]   ││
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘│
-│                                              [+] Create] │
-└─────────────────────────────────────────────────────────┘
-```
+### 📊 Dashboard - Course Overview
 
-### Module Detail - 3-Column View
-```
-┌─────────────┬──────────────────────┬─────────────────┐
-│  Resources  │   🤖 Module Chat     │    Features     │
-├─────────────┤                      ├─────────────────┤
-│ [📄 Upload] │  User: Question?     │  [💬 Chat]      │
-│             │  AI: Answer...       │  [📝 Notes]     │
-│ 📄 PDF 1    │  User: Follow-up     │  [📋 Summaries] │
-│ 📄 DOCX 2   │  ⏳ Typing...        │  [📁 Resources] │
-│ 🎥 Video 3  │                      │                 │
-└─────────────┴──────────────────────┴─────────────────┘
-```
+![Course Overview](./Assets/Course%20Overview-dash.png)
 
-### AI Summary Generation
-```
-┌──────────────────────────────────────────────────────┐
-│  Generate Resource Summary                           │
-├──────────────────────────────────────────────────────┤
-│  Length: [Detailed ▼]                                │
-│  Focus: [algorithms, applications]                   │
-│  Custom: [Optional prompt...]                        │
-│                                                      │
-│           [⚡ Generate Summary]                       │
-└──────────────────────────────────────────────────────┘
-```
+*Your centralized hub for managing all courses with intuitive card-based navigation and quick actions.*
+
+---
+
+### 📁 Module Detail - 3-Column Interactive View
+
+![Module Detail](./Assets/Module%20Detail%20-%203-Column%20View.png)
+
+*Innovative three-column layout featuring resource management, AI chat interface, and feature shortcuts.*
+
+---
+
+### 🤖 AI Summary Generation
+
+![AI Summary Generation](./Assets/AI%20Summary%20Generation.png)
+
+*Powerful AI-driven summary generation with customizable length, focus areas, and custom prompts.*
+
+---
+
+<div align="center">
+
+## 🚀 Want to See More?
+
+### [👉 **CLICK HERE TO LAUNCH THE LIVE DEMO** 👈](https://pritesh24gurjar.github.io/EduAssist-AI-FE/)
+
+**✨ Experience the full power of EduAssist-AI in your browser! ✨**
+
+</div>
 
 ---
 
@@ -475,9 +468,11 @@ For questions, issues, or feature requests:
 
 ## 🔗 Quick Links
 
+<div align="center">
+
 | Resource | Link |
 |----------|------|
-| 🚀 Live Demo | [Launch App](https://pritesh24gurjar.github.io/EduAssist-AI-FE/) |
+| 🚀 **Live Demo** | [**Launch App**](https://pritesh24gurjar.github.io/EduAssist-AI-FE/) |
 | 📚 Codebase Documentation | [View Codebase](./CODEBASE.md) |
 | 🏗️ Architecture | [View Architecture](./ARCHITECTURE.md) |
 | 📖 User Guide | [Read Guide](./USER_GUIDE.md) |
@@ -486,13 +481,23 @@ For questions, issues, or feature requests:
 | 📊 Project Portfolio | [View Portfolio](./docs/PROJECT_PORTFOLIO.pdf) |
 | 🐛 Report Bug | [GitHub Issues](https://github.com/pritesh24gurjar/EduAssist-AI-FE/issues) |
 
+</div>
+
 ---
 
 <div align="center">
 
-### 🌟 Ready to Transform Your Learning Experience?
+## 🌟 Ready to Transform Your Learning Experience?
 
-## [🚀 Launch Live Demo](https://pritesh24gurjar.github.io/EduAssist-AI-FE/)
+<div style="margin: 30px 0;">
+
+[![🚀 LAUNCH LIVE DEMO NOW](https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO_NOW-CLICK_HERE-brightgreen?style=for-the-badge&logo=rocket&logoColor=white&color=2563eb&link=https://pritesh24gurjar.github.io/EduAssist-AI-FE/)](https://pritesh24gurjar.github.io/EduAssist-AI-FE/)
+
+</div>
+
+**✨ No installation required - Opens directly in your browser! ✨**
+
+---
 
 **Made with ❤️ by the EduAssist-AI Team**
 
