@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build --mode production",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "npm run build && copy public\\404.html dist\\404.html && npx gh-pages -d dist"
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.15",
@@ -42,6 +42,7 @@
     "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.30.2",
     "@eslint/js": "^9.19.0",
     "@tailwindcss/postcss": "^4.0.8",
     "@types/react": "^19.0.12",
@@ -58,7 +59,8 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0",
-    "vite-plugin-svgr": "^4.3.0"
+    "vite-plugin-svgr": "^4.3.0",
+    "wrangler": "^4.78.0"
   },
   "overrides": {
     "react-helmet-async": {
